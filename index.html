@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="./Maquetacion_Bootstrap/css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <script src="https://kit.fontawesome.com/49f2585e1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+        <a href="#"class="navbar text-light nav-link px-5">MI NOMBRE</a>
+        <ul class=" nav d-flex nav-link ms-auto px-4">
+            <li class="nav-item">
+                <a href="#"class=" nav-link navbar text-light" >PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a href="#"class="nav-link navbar text-light" >SOBRE MI</a>
+            </li>
+            <li class="nav-item">
+                <a href="#"class=" nav-link navbar text-light" >CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+
+<!--HEADER-->
+
+    <header class="header bg-info p-5">
+        <div class="container-md">
+            <div class="container-image text-center">
+                    <img class="img-fluid " style="width:400px;" src="./Maquetacion_Bootstrap/img/CVBatman.png" alt="profile">
+                </div> 
+                <div class="container-text text-center">
+                    <h1 class="text-light">ALFREDO MUÑOZ</h1>
+                    <h2 class="text-light">★</h2>
+                    <p class="text-light fs-4">Dev FullStack - Bootstrap 5</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!--PORTFOLIO-->
+
+    <section class="container p-5">
+        <h1 class="text-center">PORTFOLIO</h1>
+        <h2 class="text-center">★</h2>
+        <div class="row ">
+            <div class="col-md-4 text-center">
+                <img src="./Maquetacion_Bootstrap/img/lemon-pie.jpeg" style="width: 250px;" alt="image1">
+                <p class="h1 text-center fs-5 fw-bold">Lemon Pie</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./Maquetacion_Bootstrap/img/CVBatman.png" style="width: 250px;" alt="image1">
+                <p class="h1 text-center fs-5 fw-bold">CV Batman</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./Maquetacion_Bootstrap/img/super.png" style="width: 250px;" alt="image1">
+                <p class="h1 text-center fs-5 fw-bold">Súpers</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./Maquetacion_Bootstrap/img/petshop.jpeg" style="width: 250px;" alt="image1">
+                <p class="h1 text-center fs-5 fw-bold">Pet Shop</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./Maquetacion_Bootstrap/img/piza.jpeg" style="width: 250px;" alt="image1">
+                <p class="h1 text-center fs-5 fw-bold">Pizzería</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="./Maquetacion_Bootstrap/img/gameshop.jpeg" style="width: 250px;" alt="image1">
+                <p class="h1 text-center fs-5 fw-bold">Game Shop</p>
+            </div>
+        </div>
+     </section>
+
+<!--SOBRE MI--> 
+
+     <section>
+        <div class="container bg-info p-5 mw-100">
+            <h1 class="text-center">PORTFOLIO</h1>
+            <h2 class="text-center">★</h2>
+        <div class="paragraph d-flex  px-5 gap-5 mt-5">
+            <div class="p-sobremi">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatem veritatis consectetur necessitatibus soluta sapiente numquam sit tenetur repudiandae rerum? Magni minus laborum rem quae. Aut vero nulla inventore laudantium!</p>
+            </div>
+            <div class="p-sobremi">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatem veritatis consectetur necessitatibus soluta sapiente numquam sit tenetur repudiandae rerum? Magni minus laborum rem quae. Aut vero nulla inventore laudantium!</p>
+            </div>
+        </div> 
+        <div class="button d-flex justify-content-center pt-5">
+             <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-inbox px-2"></i>Descargar CV</button>
+        </div>
+
+        </div>
+     </section>
+
+<!--CONTACTAME--> 
+
+    <form>
+        <div class="container  p-5 mw-100">
+            <h1 class="text-center">CONTACTAME</h1>
+            <h2 class="text-center">★</h2>
+
+            <div class="form-floating mb-2">
+                <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Nombre Completo</label>
+            </div>
+            <div class="form-floating mb-2">
+                <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatinginput">Email</label>
+            </div>
+            <div class="form-floating mb-2">
+                <input type="tel" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatinginput">Número de teléfono</label>
+            </div>  
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Mensaje</label>
+            </div>
+            <button type="submit" class="btn btn-primary bg-info mt-3 p-2">Send</button>
+        </div>
+    </form>  
+            
+
+<!--FOOTER-->
+
+    <footer>
+        <div class="container-md mw-100 bg-primary">
+            <div class="row">
+
+                <div class="col-md">
+                    <h1>MI LUGAR</h1> 
+                    <p>Calle N</p>
+                    <p>Ciudad, Estado CP</p>   
+                </div>
+
+                <div class="col-md">
+                    <h1>SIGAMOS CONECTADOS</h1>
+                </div>
+                <div class="col-md">
+                    <h1>SOBRE MI</h1>
+                    <p>Soy una persona creativa y con ansias de aprender. Tengo conocimiento sobre HTML, CSS y Bootstrap</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md bg-info text-center">
+                    <h2 class="fs-6">Copyright Mi sitio 2024</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

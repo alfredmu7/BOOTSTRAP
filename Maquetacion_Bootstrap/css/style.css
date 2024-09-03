@@ -1,0 +1,20 @@
+.form-floating  input {
+    border: none;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    
+}
+
+.form-floating textarea{
+    border: none;
+    border-bottom: 1px solid rgb(158, 158, 158);
+
+}
+
+form{
+    padding: 20px 150px;
+}
+
+.buttonSend{
+    border: none;
+    
+}
